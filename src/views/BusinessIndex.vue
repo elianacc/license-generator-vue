@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="jumbotron">
-      <h1 class="display-4 text-center text-white">Hello, {{$store.getters['manager/managerName']}}!</h1>
-      <p class="lead text-center text-white">欢迎进入许可证书管理页面</p>
+      <h1 class="display-4 text-center">Hello, {{$store.getters['manager/managerName']}}!</h1>
+      <p class="lead text-center">欢迎进入许可证书管理页面</p>
       <hr class="my-4 bg-secondary">
-      <p class="text-center text-white">当前时间： {{clock}}</p>
+      <p class="text-center">当前时间： {{clock}}</p>
     </div>
   </div>
 </template>
@@ -48,7 +48,7 @@ export default {
   padding: 4rem 2rem;
   margin-bottom: 2rem;
   border-radius: 0.3rem;
-  background-color: #15202b;
+  /* background-color: #15202b; */
 }
 
 .github-btn-p {
