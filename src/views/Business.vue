@@ -36,8 +36,8 @@
         <el-menu :default-active="sideMenuDftActive"
                  :default-openeds="sideMenu.map(menu => menu.menuName)"
                  background-color="#192734"
-                 text-color="#adb5bd"
-                 active-text-color="#409eff"
+                 text-color="#ffffff"
+                 active-text-color="#ffffff"
                  class="el-menu-vertical"
                  :collapse="sideMenuIsCollapse"
                  router
@@ -46,7 +46,7 @@
             <div style="height: 1200px;"
                  class="menu-container">
               <el-menu-item index="/business/index">
-                <i class="el-icon-s-home"></i>
+                <i class="el-icon-s-home text-white"></i>
                 <span slot="title">首页</span>
               </el-menu-item>
               <el-submenu :index="submenu.menuName"
@@ -422,35 +422,15 @@ nav .ms-uncollapse-span {
 
 /* el标签页（选项卡）重写 */
 .r1 .c2 /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
-  border-bottom: 3px solid #409eff;
-}
-/* .r1 .c2 /deep/ .el-tabs--card > .el-tabs__header .el-tabs__nav {
-  border: none;
-}
-.r1 .c2 /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item {
-  border-left: none;
-}
-.r1 .c2 /deep/ .el-tabs--card > .el-tabs__header {
-  border-bottom: none;
-  border-radius: 0.5rem;
-  background-color: #192734;
-}
-.r1 .c2 /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
-  border-bottom-color: #409eff;
-}
-.r1 .c2 /deep/ .el-tabs__item .el-icon-close:hover {
-  background-color: #10171e;
-}
-.r1 .c2 /deep/ .el-tabs__item {
-  color: #adb5bd;
+  border-bottom: 3px solid #0d6efd;
 }
 .r1 .c2 /deep/ .el-tabs__item:hover {
-  color: #409eff;
+  color: #0d6efd;
   cursor: pointer;
 }
 .r1 .c2 /deep/ .el-tabs__item.is-active {
-  color: #409eff;
-} */
+  color: #0d6efd;
+}
 
 /* 主内容底部留白 */
 .r1 .c2 .pb-12 {
