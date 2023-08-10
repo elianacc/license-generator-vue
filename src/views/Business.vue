@@ -416,7 +416,7 @@ nav .ms-uncollapse-span {
   display: none;
 }
 /* el侧边导航折叠时隐藏 > */
-.r1 .c1 .el-menu--collapse .el-submenu__title .el-submenu__icon-arrow {
+.r1 .c1 /deep/ .el-menu--collapse .el-submenu__title .el-submenu__icon-arrow {
   display: none;
 }
 
