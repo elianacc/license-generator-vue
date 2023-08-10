@@ -396,10 +396,7 @@ nav .ms-uncollapse-span {
 .r1 .c1 /deep/ .el-menu {
   border-right: 0rem;
 }
-/* el侧边导航宽高 */
-.r1 .c1 .el-menu-vertical {
-  width: 65px;
-}
+/* el侧边导航宽、背景 */
 .r1 .c1 .el-menu-vertical:not(.el-menu--collapse) {
   width: 210px;
 }
