@@ -71,7 +71,7 @@
       </div>
       <!-- 标签导航和主内容col -->
       <div :class="sideMenuIsCollapse? 'col-tabandmain-collapse': 'col-tabandmain-uncollapse'"
-           class="c2 pt-2 ps-0"
+           class="c2 pt-1 ps-0"
            style="height: 100vh;">
 
         <!-- 标签导航 -->
