@@ -421,6 +421,9 @@ nav .ms-uncollapse-span {
 }
 
 /* el标签页（选项卡）重写 */
+.r1 .c2 /deep/ .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+  border-bottom: 3px solid #409eff;
+}
 /* .r1 .c2 /deep/ .el-tabs--card > .el-tabs__header .el-tabs__nav {
   border: none;
 }
