@@ -2,7 +2,7 @@
   <div>
 
     <!-- 操作按钮及数据筛选表单row -->
-    <div class="row mt-4 r1">
+    <div class="row mt-2 r1">
 
       <div class="col-2">
         <button type="button"
@@ -325,6 +325,7 @@ export default {
   text-align: center;
 }
 .r2 .c1 /deep/ .el-table {
+  width: 99.3%;
   border-radius: 1rem;
   padding-bottom: 1px;
 }
